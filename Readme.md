@@ -1,4 +1,4 @@
-# 🌍 envcheck
+# envcheck
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
@@ -6,7 +6,7 @@
 
 **envcheck** is a zero-config, ultra-fast CLI tool that detects configuration drift between a developer's local environment and the project's expected environment. It validates global runtimes, databases, package managers, and local project dependencies against a single, unified contract.
 
-## 🚀 The Problem
+##  The Problem
 
 Configuration drift is one of the most common causes of broken builds and API failures.
 
@@ -14,7 +14,7 @@ Developer A is running Node 18 and PostgreSQL 14, while Developer B is running N
 
 **envcheck** ensures that before a developer commits code or starts a server, their machine matches the exact specifications required by the project.
 
-## 📦 Quick Start
+##  Quick Start
 
 You can run `envcheck` instantly in any project directory without installing it globally:
 
@@ -22,7 +22,7 @@ You can run `envcheck` instantly in any project directory without installing it 
 npx envcheck
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 `envcheck` uses a cascading configuration system. It requires **zero setup** to get started, but scales to support complex full-stack environments.
 
@@ -66,7 +66,7 @@ This allows you to validate databases, system tools, and local libraries. Values
 }
 ```
 
-## 💻 Output Example
+##  Output Example
 
 `envcheck` provides beautifully formatted, highly readable terminal output:
 
@@ -90,7 +90,7 @@ This allows you to validate databases, system tools, and local libraries. Values
 ⚠️ Environment drift detected. Please fix the issues above.
 ```
 
-## 🛠 Supported Tech Stack — Tier 1
+##  Supported Tech Stack — Tier 1
 
 `envcheck` natively understands how to check versions for the following **30+ tools** out of the box:
 
@@ -102,7 +102,7 @@ This allows you to validate databases, system tools, and local libraries. Values
 | **Dev Tools**        | Git, Docker, Docker Compose, curl, OpenSSL                   |
 | **Local Libraries**  | TypeScript, React, Next.js, Express, NestJS, Prisma, Drizzle |
 
-## 🤝 Contributing
+##  Contributing
 
 ### We want your tech stack!
 
